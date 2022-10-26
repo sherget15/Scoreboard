@@ -47,3 +47,8 @@ function addThreeGuest() {
     guestScore .textContent = guestTotal
 }
 
+function reset() {
+    homeScore.textContent = 0
+    guestScore.textContent = 0
+}
+
