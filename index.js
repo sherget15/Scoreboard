@@ -5,20 +5,45 @@ let homeOne = 0
 let homeTwo = 0
 let homeThree = 0
 
+let guestOne = 0
+let guestTwo = 0 
+let guestThree = 0
+
 
 function addOne() {
     homeOne += 1
-    homeScore.textContent = homeOne
+    let homeTotal = homeOne + homeTwo + homeThree
+    homeScore.textContent = homeTotal
 }
 
 function addTwo() {
     homeTwo += 2
-    homeScore.textContent = homeTwo
+    let homeTotal = homeOne + homeTwo + homeThree
+    homeScore.textContent = homeTotal
 }
 
 function addThree() {
     homeThree += 3
-    homeScore.textContent = homeThree
+    let homeTotal = homeOne + homeTwo + homeThree
+    homeScore.textContent = homeTotal
 }
 
+
+function addOneGuest() {
+    guestOne += 1
+    let guestTotal = guestOne + guestTwo + guestThree
+    guestScore.textContent = guestTotal
+}
+
+function addTwoGuest() {
+    guestTwo += 2
+    let guestTotal = guestOne + guestTwo + guestThree
+    guestScore.textContent = guestTotal
+}
+
+function addThreeGuest() {
+    guestThree += 3
+    let guestTotal = guestOne + guestTwo + guestThree
+    guestScore .textContent = guestTotal
+}
 
